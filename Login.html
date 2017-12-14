@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Petter</title>
+    <link href="Reset.css" type="text/css" rel="stylesheet">
+    <style>
+        #cabecera img:first-child{
+            float:left;
+            height: 125px;
+            width: 125px;
+        }
+        #cielo{
+            width: 960px;
+            height: 125px;
+            background-image: url("Imagenes/cielo.jpg");
+            background-position: center right;
+        }
+        #cielo img{
+            width: 835px !important;
+            float: right;
+        }
+        #capas{
+            background-color: cornflowerblue;
+            width: 960px;
+            min-height: 950px;
+            margin: 0 auto;
+            text-align: center;
+            float: none;
+        }
+        #cabecera{
+            height: 125px;
+        }
+        #cabecera div:first-child{
+            float: left;
+            width: 124px;
+            border-left: solid cornflowerblue 1px;
+            border-top: solid cornflowerblue 1px
+        }
+        #cabecera p{
+            text-align: center;
+            color: #333333;
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 20px;
+            padding-top: 50px;
+        }
+        #cuerpo{
+            height: 750px;
+            width: 960px;
+        }
+        #pesas img{
+            height: 300px;
+            width: 500px;
+            float: left;
+            margin-top: 40px;
+        }
+        #correr{
+            width: 100%;
+            height: 350px
+        }
+        #correr div:first-child{
+            height: 100%;width:500px;float: none;margin: 0 auto
+        }
+        #correr img{
+            height: 300px;
+            width: 500px;
+            margin: 0 auto;
+            float: none;
+            margin-top: 30px;
+        }
+        h1, h2, h3{
+            color: #333333;
+            font-family: Impact, Charcoal, sans-serif;
+        }
+        h2, h3{
+            margin-top: 10px;
+        }
+        #menu{
+            padding: 0;
+            width: 954px;
+            float: none;
+            overflow: hidden;
+            border: solid;
+            margin: 0 auto;
+            height: 30px;
+        }
+        #menu a{
+            color: black;
+            background-color: skyblue;
+        }
+        ul li{
+            display: inline;
+            font-size: 23px;
+            margin-right: 60px;
+            width: auto;
+            border-radius: 5px;
+        }
+        #pie{
+            height: 64px;
+            width: 960px;
+            margin-top: 10px;
+        }
+        #textopie{
+            margin-top: 40px;
+            width: 760px;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fb{
+            float: left;
+            background-position: top left;
+            background-image: url("Imagenes/sprite.png");
+            width: 64px;
+            height: 64px;
+        }
+        #I{
+            float: left;
+            background-position: left center;
+            background-image: url("Imagenes/sprite.png");
+            width: 64px;
+            height: 64px;
+        }
+        #Youtube{
+            float: left;
+            background-position: top right;
+            background-image: url("Imagenes/sprite.png");
+            width: 64px;
+            height: 64px;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #contenedor {
+            margin-top: 50px;
+        }
+        #registrarse {
+            margin-top: 15px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+
+
+<body>
+
+
+<div id="capas" class="clearfix">
+    <div id="cabecera">
+        <div><img src="Imagenes\logo.jpg"></div>
+        <div id="cielo"><p>¡¡Ponte en forma y vive saludable!!</p></div>
+    </div>
+    <div style="background-color: skyblue">
+        <ul id="menu">
+            <li><a href="Index.html" title="Inicio">Inicio</a></li>
+            <li><a href="SobreNosotros.html" title="Sobre nosostros">Sobre nosotros</a></li>
+            <li><a href="#" title="Clases">Clases</a></li>
+            <li><a href="#" title="Nutrición">Nutricion</a></li>
+            <li><a href="#" title="Contacto">Contacto</a></li>
+            <li><a href="Login.html" title="Login">Login</a></li>
+        </ul>
+    </div>
+
+
+
+    <div id="cuerpo">
+
+        <div id="contenedor">
+            <form>
+                <label>Usuario:</label>
+                <input type="nombre">
+                <label>Contraseña:</label>
+                    <input type="contraseña">
+                <div id="registrarse">
+                    <input type="submit" value="Registrarse">
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+    <div id="pie" class="clearfix" >
+        <div id="textopie" style="float: left">
+            <h4>Copyright, 2017 – Todos los derechos reservados.
+                info@alcalagim.es</h4>
+
+        </div>
+        <div style="float: right">
+            <a href="http://www.facebook.com" title="Facebook">
+                <div id="fb"></div>
+            </a>
+            <a href="http://www.instagram.com" title="Instagram">
+                <div id="I"></div>
+            </a>
+            <a href="http://youtube.com" title="Youtube">
+                <div id="Youtube"></div>
+            </a>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
